@@ -7,7 +7,7 @@
 	"output": "csv",
         "disableDeviceEmulation": true
     },
-    "chromeFlags": ['--headless'],
+    "chromeFlags": ["--headless"],
     "writeTo": "./",
     "sortByDate": true
 }
