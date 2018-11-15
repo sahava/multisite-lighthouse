@@ -1,13 +1,13 @@
 {
     "url": [
-	"https://www.simoahava.com/",
-	"https://www.simoahava.com/about-simo-ahava/"
+	"https://www.ebay.com/",
+	"https://www.wikipedia.org/"
     ],
     "lighthouseFlags": {
 	"output": "csv",
         "disableDeviceEmulation": true
     },
-    "chromeFlags": [],
-    "writeTo": "/Users/sahava/Desktop/",
+    "chromeFlags": ['--headless'],
+    "writeTo": "./",
     "sortByDate": true
 }
