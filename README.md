@@ -6,6 +6,12 @@ It's a Node.JS script, so you need Node / NPM installed on your machine.
 
 # Setup
 
+After cloning the repo, run 
+
+`npm install`
+
+to install the dependencies.
+
 In `config.json`, edit the following fields:
 
 | Field | Example | Description |
@@ -20,6 +26,8 @@ In `config.json`, edit the following fields:
 
 Once you've set it up, you can run the audit tool with
 
-`$ node script.js`
+`node script.js`
 
-The process will be logged into the console.
+The process will be logged into the console. 
+
+The reports will be written in the format you chose for the `output` key in the configuration, and they will be written in the folder structure you specified in the `writeTo` and `sortByDate` keys of the configuration file.
